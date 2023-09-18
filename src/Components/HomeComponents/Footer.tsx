@@ -2,7 +2,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-white text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+      <footer className="bg-white text-center text-white   lg:text-left">
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="">
@@ -10,25 +10,25 @@ const Footer = () => {
                 Discover
               </p>
               <Link
-                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto  "
+                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto text-black "
                 href="/about-us"
               >
                 About
               </Link>
               <Link
-                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto  "
+                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto text-black  "
                 href="/terms"
               >
                 Terms
               </Link>
               <Link
-                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto "
+                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto  text-black"
                 href="/privacy-policy"
               >
                 Privacy Policy
               </Link>
               <Link
-                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto"
+                className="mb-4 flex items-center justify-center  text-sm md:justify-start hover:text-blue-600 lg:ml-auto text-black"
                 href="/refund-policy"
               >
                 Refund Policy
@@ -41,17 +41,17 @@ const Footer = () => {
               </p>
 
               <p className="mb-4">
-                <a href="#!" className="text-neutral-600 text-sm dark:text-neutral-200">
+                <a href="#!" className="  text-gray-600 text-sm text-black">
                   Payoneer
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-600 text-sm dark:text-neutral-200">
+                <a href="#!" className="  text-gray-600 text-sm text-black">
                   Paypal
                 </a>
               </p>
               <p className="mb-4">
-                <a href="#!" className="text-neutral-600 text-sm dark:text-neutral-200">
+                <a href="#!" className="  text-gray-600 text-sm text-black">
                   Stripe
                 </a>
               </p>
@@ -63,7 +63,7 @@ const Footer = () => {
               Need Helps?
               </p>
 
-              <p className="mb-4 text-sm text-neutral-600 dark:text-neutral-200">
+              <p className="mb-4 text-sm   text-gray-600 text-black">
                
                 We are Always here for you! Knock us on Messenger anytime or Call our Hotline (10AM - 10PM).
             
@@ -76,7 +76,7 @@ const Footer = () => {
               Contact
               </p>
       
-              <p className="mb-4 text-sm flex items-center justify-center md:justify-start">
+              <p className="mb-4 text-black text-sm flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -88,7 +88,7 @@ const Footer = () => {
                 </svg>
                 rabiul.islam@implevista.com
               </p>
-              <p className="mb-4  text-sm flex items-center justify-center md:justify-start">
+              <p className="mb-4  text-black text-sm flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -108,15 +108,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bg-neutral-200  text-sm flex justify-between p-6 text-center dark:bg-neutral-700">
+        <div className=" text-black text-sm flex justify-between p-6 text-center ">
         <Link
-            className="font-semibold text-neutral-600 dark:text-neutral-400"
+            className="font-semibold "
             href="/"
           >
             IV Trip
           </Link>
 
-          <span>©2023 by IV Trip </span>
+          <span >©2023 by IV Trip </span>
   
         </div>
       </footer>
